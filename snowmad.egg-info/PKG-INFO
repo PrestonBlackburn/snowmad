@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: snowmad
+Version: 0.0.1
+Summary: A Snowflake object transcription library for capturing Snowflake objects
+Home-page: https://github.com/PrestonBlackburn/snowmad
+Author: Preston Blackburn
+Author-email: prestonblckbrn@gmail.com
+Classifier: Programing Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independant
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# snowmad
+A user/role management transcription library for capturing Snowflake roles and user permissions in terraform format
+
+## Purpose
+- Transcribe snowflake users, roles, and role grants to terraform format
+- Currently terraform can import state, but cannot generate a config file from the imported state
+- To be used with snowflake provider (snowflake-labs/snowflake)
+
+## Dependencies
+- pandas
+- snowflake.connector 
+- configparser
+
+## Outputs
+- roles text file
+    - contains snowflake roles in terraform "snowflake_role" resource format
+- users text file
+    - contains snowflake users in terraform "snowflake_user" resource format
+- grants text file
+    - contains snowflake grants for roles in terraform "snowflake_role_grants" resource format
+
+
+# Instructions
+- todo
+
+
+# Examples
+- todo
