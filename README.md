@@ -1,5 +1,5 @@
 # snowmad
-A user management library for transcribing Snowflake roles and user permissions to terraform format
+A user/role management transcription library for capturing Snowflake roles and user permissions in terraform format
 
 ## Purpose
 - Transcribe snowflake users, roles, and role grants to terraform format
@@ -18,3 +18,11 @@ A user management library for transcribing Snowflake roles and user permissions 
     - contains snowflake users in terraform "snowflake_user" resource format
 - grants text file
     - contains snowflake grants for roles in terraform "snowflake_role_grants" resource format
+
+
+# Instructions
+- todo
+
+
+# Examples
+- todo
