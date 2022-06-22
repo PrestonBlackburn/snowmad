@@ -10,6 +10,8 @@ A user/role management transcription library for capturing Snowflake roles and u
 - pandas
 - snowflake.connector 
 - configparser
+- cryptography
+- snowflake connector (with pandas addon)
 
 ## Outputs
 - roles text file

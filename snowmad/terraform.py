@@ -4,7 +4,7 @@ import configparser
 
 
 
-class terraform_transcribe:
+class transcribe:
     
     def __init__(self, config_file):
         self.config = configparser.ConfigParser()
@@ -150,8 +150,10 @@ class terraform_transcribe:
             f.write(tf_grants_all)
 
 
-
+"""
 if __name__== "__main__":
     # test running from config file called snowflake.config
     tf_conn = terraform_transcribe('snowflake.config')
     tf_conn.generate_files()
+
+"""

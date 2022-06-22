@@ -1,13 +1,14 @@
 Metadata-Version: 2.1
 Name: snowmad
-Version: 0.0.1
+Version: 0.0.2
 Summary: A Snowflake object transcription library for capturing Snowflake objects
 Home-page: https://github.com/PrestonBlackburn/snowmad
 Author: Preston Blackburn
 Author-email: prestonblckbrn@gmail.com
-Classifier: Programing Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
 Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independant
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
@@ -23,6 +24,8 @@ A user/role management transcription library for capturing Snowflake roles and u
 - pandas
 - snowflake.connector 
 - configparser
+- cryptography
+- snowflake connector (with pandas addon)
 
 ## Outputs
 - roles text file
