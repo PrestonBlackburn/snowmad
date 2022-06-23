@@ -3,8 +3,7 @@
 </div>
 
 
-# snowmad:
-A user/role management transcription library for capturing Snowflake roles and user permissions in terraform format  
+# snowmad: a snowflake transcription library  
 [![PyPI Latest Release](https://img.shields.io/pypi/v/snowmad.svg)](https://pypi.org/project/snowmad/)
 [![Package Status](https://img.shields.io/pypi/status/snowmad.svg)](https://pypi.org/project/snowmad/)
 [![License](https://img.shields.io/pypi/l/snowmad.svg)](https://github.com/PrestonBlackburn/snowmad/blob/main/LICENSE)
