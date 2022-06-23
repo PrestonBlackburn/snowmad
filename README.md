@@ -49,7 +49,7 @@ pip install snowmad
 
 
 ## Documentation
-See the current documentation on the **[wiki page]**(https://github.com/PrestonBlackburn/snowmad/wiki)
+See the current documentation on the [wiki page](https://github.com/PrestonBlackburn/snowmad/wiki)
 
 
 ## Outputs
