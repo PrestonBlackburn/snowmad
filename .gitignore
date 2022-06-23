@@ -1,3 +1,9 @@
 snowflake.config
 
 *.txt
+
+snowmad.egg-info/*
+dist/*
+build/*
+/snowmad/__pycache__
+/snowmad/__pycache__/*
